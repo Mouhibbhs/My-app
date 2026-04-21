@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: my-gateway
+    env: docker
+    plan: free
+    envVars:
+      - key: API_PASSWORD
+        value: mouhib123
+        
